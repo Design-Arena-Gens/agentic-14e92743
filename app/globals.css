@@ -1,0 +1,18 @@
+:root{--fg:#0b1021;--bg:#fff;--muted:#5b6078;--accent:#2a6cf6}
+*{box-sizing:border-box}
+html,body{padding:0;margin:0;color:var(--fg);background:var(--bg);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,Ubuntu,"Apple Color Emoji","Segoe UI Emoji"}
+.siteHeader{padding:28px 20px;border-bottom:1px solid #eee}
+.siteHeader h1{margin:0 0 6px;font-size:28px}
+.tag{margin:0;color:var(--muted)}
+.content{max-width:920px;margin:0 auto;padding:24px 20px;line-height:1.65}
+.grid{display:grid;gap:28px}
+section h2{font-size:22px;margin:0 0 10px}
+ul{padding-left:18px}
+.muted{color:var(--muted)}
+.refList{display:grid;gap:16px}
+.refCard{border:1px solid #e7e7e7;border-radius:12px;padding:14px}
+.refTitle{font-weight:600;color:var(--accent);text-decoration:none}
+.refMeta{font-size:14px;color:var(--muted)}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+input[type="text"]{padding:10px 12px;border:1px solid #ddd;border-radius:10px;min-width:240px}
+.badge{display:inline-block;border:1px solid #dbe1ff;color:#3147b5;background:#f6f8ff;padding:4px 8px;border-radius:999px;font-size:12px;margin-right:6px}
